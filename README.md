@@ -64,3 +64,15 @@ For a bit more on this topic, check out [my blog post on Ollama](https://ollama.
 Special thanks to [@dawchihliou](https://twitter.com/dawchihliou) for making Voy, [@jmorgan](https://twitter.com/jmorgan) and [@mchiang0610](https://twitter.com/mchiang0610) for making Ollama and for your feedback, and [@xenovacom](https://twitter.com/xenovacom) for making Transformers.js.
 
 For more, follow me on Twitter [@Hacubu](https://x.com/hacubu)!
+
+## Self host
+```
+git clone git@github.com:chenhaodev/ollama-chatpdf.git
+cd ollama-chatpdf
+brew install yarn
+yarn install
+yarn build
+yarn dev
+OLLAMA_ORIGINS=http://localhost:3000 OLLAMA_HOST=127.0.0.1:11435 ollama serve
+OLLAMA_HOST=127.0.0.1:11435 ollama pull mistral
+```
