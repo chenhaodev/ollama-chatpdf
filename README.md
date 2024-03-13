@@ -66,6 +66,8 @@ Special thanks to [@dawchihliou](https://twitter.com/dawchihliou) for making Voy
 For more, follow me on Twitter [@Hacubu](https://x.com/hacubu)!
 
 ## Self host
+See example [here](https://github.com/chenhaodev/ollama-chatpdf/blob/main/examples/llm-app-chatpdf-localhost-4de279b-20240313223456.jpg)
+
 ```
 git clone git@github.com:chenhaodev/ollama-chatpdf.git
 cd ollama-chatpdf
